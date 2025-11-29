@@ -1,0 +1,39 @@
+name: Build Windows self-contained EXE
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  build-windows:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: '10.0.x'
+
+      - name: Restore
+        run: dotnet restore
+
+      - name: Build (Release)
+        run: dotnet build -c Release
+
+      - name: Publish self-contained Win-x64 (Console test)
+        run: |
+          dotnet publish CarisBeyondmil.ConsoleTest/CarisBeyondmil.ConsoleTest.csproj \
+            -c Release -r win-x64 --self-contained true /p:PublishSingleFile=true /p:PublishTrimmed=false -o publish/win-x64
+
+      - name: List published files
+        run: dir publish\win-x64
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: CarisBeyondmil-windows-publish
+          path: publish/win-x64
+          retention-days: 7
