@@ -1,0 +1,11 @@
+/Users/mukhammadnursulaiman/Documents/5_project/3_carisbeyondmil/0-projects/CarisBeyondmil.Core/bin/Release/net10.0/CarisBeyondmil.Core.deps.json
+/Users/mukhammadnursulaiman/Documents/5_project/3_carisbeyondmil/0-projects/CarisBeyondmil.Core/bin/Release/net10.0/CarisBeyondmil.Core.dll
+/Users/mukhammadnursulaiman/Documents/5_project/3_carisbeyondmil/0-projects/CarisBeyondmil.Core/bin/Release/net10.0/CarisBeyondmil.Core.pdb
+/Users/mukhammadnursulaiman/Documents/5_project/3_carisbeyondmil/0-projects/CarisBeyondmil.Core/obj/Release/net10.0/CarisBeyondmil.Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mukhammadnursulaiman/Documents/5_project/3_carisbeyondmil/0-projects/CarisBeyondmil.Core/obj/Release/net10.0/CarisBeyondmil.Core.AssemblyInfoInputs.cache
+/Users/mukhammadnursulaiman/Documents/5_project/3_carisbeyondmil/0-projects/CarisBeyondmil.Core/obj/Release/net10.0/CarisBeyondmil.Core.AssemblyInfo.cs
+/Users/mukhammadnursulaiman/Documents/5_project/3_carisbeyondmil/0-projects/CarisBeyondmil.Core/obj/Release/net10.0/CarisBeyondmil.Core.csproj.CoreCompileInputs.cache
+/Users/mukhammadnursulaiman/Documents/5_project/3_carisbeyondmil/0-projects/CarisBeyondmil.Core/obj/Release/net10.0/CarisBeyondmil.Core.dll
+/Users/mukhammadnursulaiman/Documents/5_project/3_carisbeyondmil/0-projects/CarisBeyondmil.Core/obj/Release/net10.0/refint/CarisBeyondmil.Core.dll
+/Users/mukhammadnursulaiman/Documents/5_project/3_carisbeyondmil/0-projects/CarisBeyondmil.Core/obj/Release/net10.0/CarisBeyondmil.Core.pdb
+/Users/mukhammadnursulaiman/Documents/5_project/3_carisbeyondmil/0-projects/CarisBeyondmil.Core/obj/Release/net10.0/ref/CarisBeyondmil.Core.dll
