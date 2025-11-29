@@ -1,0 +1,24 @@
+# .NET / Visual Studio
+bin/
+obj/
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.ide
+*.slnx
+
+# Rider
+.idea/
+
+# macOS
+.DS_Store
+
+# publish output
+publish/
+
+# JetBrains
+*.iml
+
+# user secrets
+secrets.json
